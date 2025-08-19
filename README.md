@@ -1,8 +1,8 @@
-### SKIN LESION DIAGNOSIS USING DEEP LEARNING (Classification with ResNet-50, LSTM, and Attention)
+## SKIN LESION DIAGNOSIS USING DEEP LEARNING (Classification with ResNet-50, LSTM, and Attention)
 #### Primary Researcher - Penelope DeFreitas 
 #### This repository was completed as part of a major research project at the Toronto Metropolitan University.
 
-# Required Libraries
+## Required Libraries
 Make sure to install the following packages in your Colab/virtual environment:
 
 	• pip install numpy
@@ -17,7 +17,7 @@ Make sure to install the following packages in your Colab/virtual environment:
 	• pip install h5py
 
 
-# Experimental Files
+## Experimental Files
     • EDA (Exploratory Data Analysis)
 		1. ISIC 2017 EDA - 2017_ISIC_data_EDA.ipynb
 		2. ISIC 2018 EDA - 2018_ISIC_data_EDA.ipynb
@@ -45,7 +45,7 @@ Make sure to install the following packages in your Colab/virtual environment:
 	• Grad-CAM (example application)
 		1. Grad-CAM.ipynb
 
-# How to Run the Code
+## How to Run the Code
 This project is optimized for running in Google Colab with GPU acceleration. It is recommended that you run the code in the cloud e.g Google Colab Pro+ (SMOTE-Tomek) and Pro Pro (other class balancing techniques)
 	
     1.	Mount your Google Drive 
@@ -83,7 +83,7 @@ This project is optimized for running in Google Colab with GPU acceleration. It 
 
     4. Run the code 
 
-# Model Summary
+## Model Summary
 	• Backbone: ResNet-50 pretrained on the ImageNet dataset
 	• Attention Module: Channel Attention using Global Average + Max Pooling
 	• Sequential Decoder: LSTM with initial hidden state from image features
@@ -91,7 +91,7 @@ This project is optimized for running in Google Colab with GPU acceleration. It 
 	• Loss Functions: categorical crossentropy, focal loss, weighted crossentropy
 	• Class Imbalance Handling: Augmentation, Downsampling, SMOTE-Tomek, Class weighting
 
-# Outputs
+## Outputs
 	• Saved Models: e.g., best_model_v1.1.h5
 	• Reports: Text/json files with precision, recall, BACC, AUC, confusion matrix, confidence/predication results, etc.
 	• Metrics-based Visualizations: Accuracy plots, class distribution, sample augmented images
@@ -101,7 +101,7 @@ This project is optimized for running in Google Colab with GPU acceleration. It 
 		- Grad-CAM heatmap colorized (<stem>_gradcam_raw_color.png)
 		- color heatmap blended on top of the image or overlay image (<stem>_gradcam_overlay.png)
 		
-# Dataset Used
+## Dataset Used
 	• ISIC 2017 Skin Lesion Classification Dataset
 		- Publicly available [here](https://challenge.isic-archive.com/data/#2017)
 		- Includes dermoscopic images of benign, seborrheic keratosis, and melanoma lesions
