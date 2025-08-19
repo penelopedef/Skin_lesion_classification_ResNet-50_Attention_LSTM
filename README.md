@@ -1,6 +1,6 @@
-# SKIN LESION DIAGNOSIS USING DEEP LEARNING (Classification with ResNet-50, LSTM, and Attention)
-# Primary Researcher - Penelope DeFreitas 
-# This repository was completed as part of a major research project at the Toronto Metropolitan University.
+### SKIN LESION DIAGNOSIS USING DEEP LEARNING (Classification with ResNet-50, LSTM, and Attention)
+#### Primary Researcher - Penelope DeFreitas 
+#### This repository was completed as part of a major research project at the Toronto Metropolitan University.
 
 # Required Libraries
 Make sure to install the following packages in your Colab/virtual environment:
