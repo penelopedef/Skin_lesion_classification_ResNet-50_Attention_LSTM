@@ -9,9 +9,6 @@ trained **ResNet-50 models** for skin lesion classification. In addition, a ResN
 
 Furthermore, the integration of **explainable Artificial Intelligence** (**XAI**) added an important dimension to interpreting model decision making, offering significant potential for the real-world clinical adoption of AI-assisted clinical diagnosis.
 
-## Dataset
-The dataset was sourced from the ISIC Challenge website - https://challenge.isic-archive.com/data/.
-
 ## Required Libraries
 Make sure to install the following packages in your Colab/virtual environment:
 
