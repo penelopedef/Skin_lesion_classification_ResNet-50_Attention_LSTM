@@ -2,6 +2,12 @@
 #### Primary Researcher - Penelope DeFreitas 
 #### This repository was completed as part of a major research project at the Toronto Metropolitan University in partial fulfillment of the requirements for the degree of Master of Science in the Programme of Data Science and Analytics
 
+## The Problem and Focus Area
+The incidence of skin cancer is increasing across North America, with melanoma remaining one of the most aggressive and life-threatening forms. This study evaluated
+the impact of class balancing strategies (**no balancing, targeted data augmentation, downsampling, SMOTE-Tomek, and class weighting**) combined with fine-tuning of pre-
+trained **ResNet-50 models** for skin lesion classification. In addition, a ResNet-50 model variant that integrated hierarchical diagnosis and attention mechanisms, inspired by Barata et al. (2021), was compared against the baseline model. Using the **ISIC 2017** **dataset** for Phase 1 hyperparameter tuning and the **ISIC 2018 dataset** for further experimentation in Phase 2, model performance was benchmarked using metrics such as accuracy, precision, sensitivity, and AUC-ROC. Results identified the Barata et al. (2021) variant with hybrid class balancing as the most promising, achieving balanced performance across metrics and improving the detection of minority lesion classes.
+
+Furthermore, the integration of **explainable Artificial Intelligence** (**XAI**) added an important dimension to interpreting model decision making, offering significant potential for the real-world clinical adoption of AI-assisted clinical diagnosis.
 
 ## Required Libraries
 Make sure to install the following packages in your Colab/virtual environment:
