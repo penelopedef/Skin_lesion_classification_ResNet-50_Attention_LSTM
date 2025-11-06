@@ -9,6 +9,14 @@ trained **ResNet-50 models** for skin lesion classification. In addition, a ResN
 
 Furthermore, the integration of **explainable Artificial Intelligence** (**XAI**) added an important dimension to interpreting model decision making, offering significant potential for the real-world clinical adoption of AI-assisted clinical diagnosis.
 
+## Dataset Used
+	• ISIC 2017 Skin Lesion Classification Dataset
+		- Publicly available [here](https://challenge.isic-archive.com/data/#2017)
+		- Includes dermoscopic images of benign, seborrheic keratosis, and melanoma lesions
+	• ISIC 2018 Skin Lesion Classification Dataset
+		- Publicly available [here](https://challenge.isic-archive.com/data/#2018)
+		- Includes dermoscopic images of melanoma, nevus, basal cell carcinoma, actinic keratoses and intraepithelial carcinoma, benign keratosis, dermatofibroma, vascular lesion lesions
+
 ## Required Libraries
 Make sure to install the following packages in your Colab/virtual environment:
 
@@ -107,11 +115,3 @@ This project is optimized for running in Google Colab with GPU acceleration. It 
 		- Grad-CAM heatmap as a NumPy array before color mapping (<stem>_gradcam_raw.npy)
 		- Grad-CAM heatmap colorized (<stem>_gradcam_raw_color.png)
 		- color heatmap blended on top of the image or overlay image (<stem>_gradcam_overlay.png)
-		
-## Dataset Used
-	• ISIC 2017 Skin Lesion Classification Dataset
-		- Publicly available [here](https://challenge.isic-archive.com/data/#2017)
-		- Includes dermoscopic images of benign, seborrheic keratosis, and melanoma lesions
-	• ISIC 2018 Skin Lesion Classification Dataset
-		- Publicly available [here](https://challenge.isic-archive.com/data/#2018)
-		- Includes dermoscopic images of melanoma, nevus, basal cell carcinoma, actinic keratoses and intraepithelial carcinoma, benign keratosis, dermatofibroma, vascular lesion lesions
